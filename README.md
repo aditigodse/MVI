@@ -1,1 +1,1 @@
-# MVI
+# MVI architecture pattern basic demo

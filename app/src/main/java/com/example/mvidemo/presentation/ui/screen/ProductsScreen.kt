@@ -1,5 +1,6 @@
 package com.example.mviapp.presentation.post
 
+import android.R
 import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -23,7 +24,6 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.example.assignment.ui.model.Products
-import com.example.mvidemo.R
 import com.example.mvidemo.presentation.viewmodel.ProductsViewModel
 import com.example.mvidemo.presentation.intent.UIEvent
 
@@ -97,7 +97,7 @@ fun ProductListItem(product: Products) {
                     .build(),
                 contentDescription = "Profile Image",
                 contentScale = ContentScale.Crop,
-                placeholder = painterResource(R.drawable.ic_launcher_foreground),
+                placeholder = painterResource(R.drawable.ic_menu_gallery),
                 modifier = Modifier
                     .size(50.dp)
                     .clip(CircleShape)
